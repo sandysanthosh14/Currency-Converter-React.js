@@ -1,0 +1,51 @@
+/* Center the converter container */
+.converter-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+/* Styles for the heading */
+.converter-container h2 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+/* Input and select styling */
+.converter-container input[type="number"],
+.converter-container select {
+  padding: 8px;
+  margin: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: calc(50% - 22px);
+}
+
+/* Convert button styling */
+.converter-container button {
+  padding: 8px 16px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.converter-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Result text styling */
+.converter-container h3 {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #333;
+}
